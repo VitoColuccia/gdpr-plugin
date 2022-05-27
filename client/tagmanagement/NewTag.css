@@ -1,0 +1,111 @@
+.wrapper{
+  margin-top: 10px;
+  border: 1px solid lightblue;
+  background-color:  #FFFFFF;
+  padding: 10px;
+}
+
+.form .row{
+  column-count: 1;
+}
+
+.form .row p input{
+  width: 5%;
+  display:inline-block;
+}
+.form .row p label{
+  display:inline-block;
+  width: 90%;
+}
+
+.form .row p:nth-child(odd) {
+  background-color: #f3f1f1;
+}
+
+.form .row p:hover {
+  cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid #0B5AA2;
+  background-color: #82B2FC !important;
+  color: #FFFFFF;
+}
+
+.form .row p label:hover, .form .row p input:hover{
+  cursor: pointer;
+}
+
+.form .head-row{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form .head-row input{
+  width: 100%;
+}
+
+
+header{
+  width: 100%;
+  text-align: center;
+}
+
+#content{
+  display:flex;
+  flex-flow: row nowrap;
+}
+
+#content div.panel{
+  flex: 1 1 50%;
+  align-self: stretch;
+  text-align: center;
+  border: solid black 1px;
+  padding: 5px;
+}
+
+
+.InputAddOn {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+.InputAddOnList{
+  display: flex;
+}
+
+.InputAddOn-field {
+  flex: 1;
+}
+.InputAddOn-field:not(:first-child) {
+  border-left: 0;
+}
+.InputAddOn-field:not(:last-child) {
+  border-right: 0;
+}
+
+.InputAddOn-item {
+  background-color: rgba(147, 128, 108, 0.1);
+  color: #666666;
+  font: inherit;
+  font-weight: normal;
+}
+
+.InputAddOn-field,
+.InputAddOn-item {
+  border: 1px solid rgba(147, 128, 108, 0.25);
+  padding: 0.5em 0.75em;
+}
+.InputAddOn-field:first-child,
+.InputAddOn-item:first-child {
+  border-radius: 2px 0 0 2px;
+}
+.InputAddOn-field:last-child,
+.InputAddOn-item:last-child {
+  border-radius: 0 2px 2px 0;
+}
+
+.nomargin{
+  margin:  0px !important;
+}
+
+.hover-field:hover{
+  background-color: #82B2FC !important;
+  color: white !important;
+}

@@ -1,0 +1,54 @@
+{
+    "name": "camunda-modeler-gdpr-plugin",
+    "version": "1.1.0",
+    "description": "GDPR camunda plugin",
+    "author": "Vito Coluccia <vitocoluccia93@gmail.com>",
+    "homepage": "",
+    "bugs": {
+        "url": ""
+    },
+    "license": "Apache-2.0",
+    "files": [
+        "dist",
+        "menu",
+        "index.js"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "build": "run-s bundle",
+        "all": "run-s bundle",
+        "bundle": "webpack",
+        "dev": "webpack -w",
+        "prepublishOnly": "run-s bundle"
+    },
+    "keywords": [
+        "camunda",
+        "modeler",
+        "plugin",
+        "i18n"
+    ],
+    "dependencies": {
+        "bpmn-js": "^8.9.1",
+        "camunda-modeler-plugin-helpers": "^3.4.0-alpha.1",
+        "crypto-js": "^4.1.1",
+        "dexie": "^3.2.0",
+        "diagram-js": "^7.8.2",
+        "ids": "^1.0.0",
+        "lodash": "^4.17.21",
+        "min-dash": "^3.8.1",
+        "react-dom": "^17.0.2",
+        "react-export-excel": "^0.5.3",
+        "react-select": "^4.3.1",
+        "tiny-svg": "^2.2.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.0",
+        "@babel/preset-react": "^7.13.13",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^6.5.1",
+        "npm-run-all": "^4.1.5",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.37.1",
+        "webpack-cli": "^4.7.0"
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Tags",
+  "uri": "http://tags",
+  "prefix": "tag",
+  "types": [
+    {
+      "name": "Tag",
+      "superClass": [ "Element" ],
+      "properties": [
+        { 
+          "name": "tag:name", 
+          "type": "String", 
+          "isAttr": true, 
+          "default": "No Name",
+          "xml": {
+            "serialize": "xsi:type"
+          }  
+        },
+        { 
+          "name": "tag:value", 
+          "type": "String", 
+          "isAttr": true,
+          "xml": {
+            "serialize": "xsi:type"
+          }
+         }, { 
+          "name": "tag:id", 
+          "type": "String", 
+          "isAttr": true,
+          "xml": {
+            "serialize": "xsi:type"
+          }
+         }
+      ]
+    }
+  ]
+}
+
+

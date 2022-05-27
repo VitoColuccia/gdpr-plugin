@@ -1,0 +1,74 @@
+table{
+	margin-top: 10px;
+  	border: 1px solid lightblue;
+  	background-color:  #FFFFFF;
+  	padding: 10px;
+	width: 100%;
+}
+
+table tbody tr.table_tr:nth-child(odd){
+	background-color: #f3f1f1;
+}
+
+table tbody tr.table_tr:hover {
+  border: 1px solid #0B5AA2;
+  background-color: #82B2FC !important;
+  color: #FFFFFF;
+}
+
+table tbody tr td.center{
+	text-align: center;
+}
+
+table tbody tr td.center button{
+	cursor: pointer;
+}
+
+table thead tr th{
+	text-align: center;
+}
+
+.tagelements{
+		margin-top: 10px;
+  	border: 1px solid lightblue;
+  	background-color:  #FFFFFF;
+  	padding: 10px;
+		width: 100%;
+}
+
+.tagelements .select-row{
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr;
+}
+
+.tagelements .select-row-header{
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr;
+}
+
+.tagelements .select-row-header .select-header{
+	font-weight: bold;
+	text-align: center;
+}
+.tagelements .select-row .select-cell{
+	text-align: center;
+	padding: 5px;
+	border: 1px solid white;
+}
+
+.tagelements .select-row:nth-child(odd){
+	background-color: #f3f1f1;;
+}
+
+.tagelements .select-row:hover{
+	background-color: #82B2FC !important;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
